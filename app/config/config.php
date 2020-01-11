@@ -10,3 +10,5 @@
     define('URLROOT', 'http://localhost/sharedposts');
     // Site name
     define('SITENAME', 'Sharedposts');
+
+    define('APPVERSION', '1.0.0');
