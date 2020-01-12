@@ -55,7 +55,7 @@ class Database {
             }
         }
 
-        $this->stmt->nimdValue($param, $value, $type);
+        $this->stmt->bindValue($param, $value, $type);
     }
 
     // execute the prepared statement
