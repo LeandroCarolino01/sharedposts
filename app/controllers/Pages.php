@@ -5,6 +5,9 @@
         }
 
         public function index(){
+            if(isLoggedIn()){
+                redirect('posts');
+            }
             $data = [
                 'title' => 'SharedPosts', 
                 'description' => 'Simple social network built on Leandros PHP framework'
