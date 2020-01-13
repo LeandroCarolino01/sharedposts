@@ -5,7 +5,7 @@
        
         <h2>Add Post</h2>
         <p>Create a post with this form</p>
-        <form action="<?php echo URLROOT; ?>/users/login" method="post">
+        <form action="<?php echo URLROOT; ?>/posts/add" method="post">
             
 
             <div class="form-group">
